@@ -36,7 +36,7 @@
 
 <body>
 
-  <main role="main">
+  <main role="main" id="root">
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -45,153 +45,7 @@
       </div>
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>EFOS</h2>
-          <p>
-            API REST para la consulta de EFOS emitidos por el SAT
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://efos.racooapps.com/" target="_blank">http://efos.racooapps.com/</a>
-              </li>
-              <li class="list-group-item">
-                API: <a href="http://efos.racooapps.com/efos/" target="_blank">http://efos.racooapps.com/efos/</a>
-              </li>
-            </ul>
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="http://efos.racooapps.com/doc" target="_blank" role="button">
-              Documentación &raquo;
-            </a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2>UIF</h2>
-          <p>
-            Aplicación para la gestión de UIF
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://uif.racooapps.com" target="_blank">http://uif.racooapps.com</a>
-              </li>
-              <li class="list-group-item">
-                API URL: <a href="http://uif.racooapps.com/api" target="_blank">http://uif.racooapps.com/api</a>
-              </li>
-            </ul>
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="http://uif.racooapps.com/doc" target="_blank" role="button">
-              Documentación API &raquo;
-            </a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2>Login</h2>
-          <p>
-            Login Racoo
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://login.racooapps.com/" target="_blank">http://login.racooapps.com/</a>
-              </li>
-              <li class="list-group-item">
-                API: <a href="http://login.racooapps.com/" target="_blank">http://login.racooapps.com/</a>
-              </li>
-            </ul>
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="http://login.racooapps.com/doc" target="_blank" role="button">
-              Documentación &raquo;
-            </a>
-          </p>
-        </div>
-      </div>
-
-      <hr>
-
-    </div> <!-- /container -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Links</h2>
-          <p>
-            Links Racoo
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://links.racooapps.com/" target="_blank">http://links.racooapps.com/</a>
-              </li>
-              <li class="list-group-item">
-                API: <a href="http://links.racooapps.com" target="_blank">http://links.racooapps.com</a>
-              </li>
-            </ul>
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="http://links.racooapps.com/doc" target="_blank" role="button">
-              Documentación &raquo;
-            </a>
-          </p>
-        </div>
-  
-        <div class="col-md-4">
-          <h2>Control de usuarios</h2>
-          <p>
-            Esta aplicación permite dar de alta a los usuarios en el sistema Racoo
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://usuarios.racooapps.com/" target="_blank">http://usuarios.racooapps.com/</a>
-              </li>
-            </ul>
-          </p>
-        </div>
-  
-        <div class="col-md-4">
-          <h2>Fadocs</h2>
-          <p>
-            Esta app permite el autocompletado de documentos
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://fadocs.racooapps.com/" target="_blank">http://fadocs.racooapps.com/</a>
-              </li>
-            </ul>
-          </p>
-        </div>
-
-        <div class="col-md-4">
-          <h2>Leyes</h2>
-          <p>
-            Leyes
-          </p>
-          <p>
-            <ul class="list-group">
-              <li class="list-group-item">
-                APP URL: <a href="http://app.leyes.racooapps.com/" target="_blank">http://app.leyes.racooapps.com/</a>
-              </li>
-              <li class="list-group-item">
-                API: <a href="http://api.leyes.racooapps.com/docs" target="_blank">http://api.leyes.racooapps.com</a>
-              </li>
-            </ul>
-          </p>
-          <p>
-            <a class="btn btn-secondary" href="http://api.leyes.racooapps.com/docs" target="_blank" role="button">
-              Documentación &raquo;
-            </a>
-          </p>
-        </div>
-      </div>
-
-    </div>
+    <!-- HERE OUTPUT SITE MAP CONTENT -->
 
   </main>
 
@@ -203,6 +57,7 @@
     crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
   <script src="./assets/dist/js/bootstrap.bundle.js"></script>
+  <script src="index.js" type="module"></script> 
 </body>
 
 </html>
