@@ -5,7 +5,11 @@ export const siteMap = [
         APP_URL: 'https://efos-wk2mt6srkq-uk.a.run.app',
         API: 'https://efos-wk2mt6srkq-uk.a.run.app/api',
         DOC: 'https://efos-wk2mt6srkq-uk.a.run.app/api',
-        RELATIONS: ['LOGIN'],
+        REPOSITORY: ['https://github.com/edgar-durand/efos-workspace.git'],
+        RELATIONS: [
+            'LOGIN', 
+            'https://github.com/geraldosalazar16/racoo_cloud_functions.git'
+        ],
         DB: [
                 {
                     DB_TYPE: 'mongodb',
@@ -24,6 +28,7 @@ export const siteMap = [
         APP_URL: 'https://personas-wk2mt6srkq-uk.a.run.app',
         API: 'https://personas-wk2mt6srkq-uk.a.run.app/api',
         DOC: 'https://personas-wk2mt6srkq-uk.a.run.app/api',
+        REPOSITORY: ['https://github.com/edgar-durand/people-workspace.git'],
         RELATIONS: ['LOGIN'],
         DB: [
                 {
@@ -39,7 +44,8 @@ export const siteMap = [
         APP_URL: 'http://login.racooapps.com/',
         API: 'http://login.racooapps.com/',
         DOC: 'http://login.racooapps.com/doc',
-        RELATIONS: ['LEYES', 'UIF', 'EFOS'],
+        REPOSITORY: ['https://github.com/geraldosalazar16/loginRacoo.git'],
+        RELATIONS: ['LEYES', 'UIF', 'EFOS', 'FADOCS', 'FORMULARIOS'],
         DB: [
                 {
                     DB_TYPE: 'mysql',
@@ -54,6 +60,7 @@ export const siteMap = [
         APP_URL: 'http://links.racooapps.com/',
         API: 'http://links.racooapps.com',
         DOC: 'http://links.racooapps.com/doc',
+        REPOSITORY: '',
         RELATIONS: [],
         DB: [
                 {
@@ -69,6 +76,7 @@ export const siteMap = [
         APP_URL: 'http://usuarios.racooapps.com/',
         API: '',
         DOC: '',
+        REPOSITORY: '',
         RELATIONS: [],
         DB: [
                 {
@@ -82,12 +90,13 @@ export const siteMap = [
         TITLE: 'FADOCS',
         DESCRIPTION: 'Esta app permite el autocompletado de documentos',
         APP_URL: 'http://fadocs.racooapps.com/',
-        API: '',
+        API: 'http://drive.racooapps.com/api',
         DOC: '',
-        RELATIONS: [],
+        REPOSITORY: ['racoo_fadocs_front', 'racoo-google-drive-api'],
+        RELATIONS: ['LOGIN'],
         DB: [
                 {
-                    DB_TYPE: '',
+                    DB_TYPE: 'Google Drive',
                     DB_NAME: '',
                     DB_URL: ''
                 }
@@ -99,6 +108,7 @@ export const siteMap = [
         APP_URL: 'https://leyes-wk2mt6srkq-uk.a.run.app',
         API: 'https://leyes-wk2mt6srkq-uk.a.run.app/api',
         DOC: 'https://leyes-wk2mt6srkq-uk.a.run.app/api',
+        REPOSITORY: ['https://github.com/edgar-durand/leyes-cicd.git'],
         RELATIONS: ['LOGIN'],
         DB: [
                 {
@@ -108,18 +118,36 @@ export const siteMap = [
                 }
             ]
     },
-    // {
-    //     TITLE: 'TEST Title',
-    //     DESCRIPTION: 'My Testing desciption',
-    //     APP_URL: 'https://<my-app-url>',
-    //     API: 'https://<my-api-url>',
-    //     DOC: 'https://<my-doc-url>',
-    //     RELATIONS: [],
-    //     DB: [{ 
-            
-    //             DB_TYPE: '',
-    //             DB_URL: ''
-        
-    //     }]    
-    // },
+    {
+        TITLE: 'Alerta usuarios',
+        DESCRIPTION: 'Alerta usuarios',
+        APP_URL: 'http://adminusuarios.racooapps.com',
+        API: 'http://alertasusuarios.racooapps.com',
+        DOC: '',
+        REPOSITORY: ['racoo-alertas-usuarios', 'racoo-alertas-usuarios-front'],     
+        RELATIONS: [],
+        DB: [
+            {
+                DB_TYPE: 'mysql',
+                DB_NAME: 'racoolpb_listas_uif',
+                DB_URL: 'listapb.com'
+            }
+        ]    
+    },
+    {
+        TITLE: 'FORMULARIOS',
+        DESCRIPTION: 'Formularios',
+        APP_URL: 'http://formularios.racooapps.com',
+        API: 'http://formularios.racooapps.com',
+        DOC: '',
+        REPOSITORY: ['backFormularios', 'appFormulariosV2'],     
+        RELATIONS: ['LOGIN'],
+        DB: [
+            {
+                DB_TYPE: 'mongodb',
+                DB_NAME: 'racoo',
+                DB_URL: 'mongodb+srv://racoo:racoo2019@cluster0-3a5re.mongodb.net/test?retryWrites=true&w=majority'
+            }
+        ]    
+    }
 ]

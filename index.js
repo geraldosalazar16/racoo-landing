@@ -16,8 +16,8 @@ function addElement() {
     newContent +=`
     <div class="col-md-4">
     <h2>${app.TITLE}</h2>
-    <p>
-      ${app.DESCRIPTION.substr(0, 41)}
+    <p style="height: 3rem;">
+      ${app.DESCRIPTION}
     </p>
     <p>
       <ul class="list-group">
@@ -33,7 +33,7 @@ function addElement() {
 
     newContent += app.DOC ? `
         <p>
-            <a class="btn btn-secondary" href="${app.DOC.substr(0, 30)}" target="_blank" role="button">
+            <a class="btn btn-secondary" href="${app.DOC}" target="_blank" role="button">
               Documentación &raquo;
             </a>
         </p>  ` : ``;    
