@@ -41,10 +41,10 @@ export const siteMap = [
     {
         TITLE: 'LOGIN',
         DESCRIPTION: 'Login Racoo',
-        APP_URL: 'http://login.racooapps.com/',
-        API: 'http://login.racooapps.com/',
-        DOC: 'http://login.racooapps.com/doc',
-        REPOSITORY: ['https://github.com/geraldosalazar16/loginRacoo.git'],
+        APP_URL: 'https://login-wk2mt6srkq-uk.a.run.app',
+        API: 'https://login-wk2mt6srkq-uk.a.run.app',
+        DOC: 'https://login-wk2mt6srkq-uk.a.run.app/doc',
+        REPOSITORY: ['https://github.com/geraldosalazar16/racoo-landing.git'],
         RELATIONS: ['LEYES', 'UIF', 'EFOS', 'FADOCS', 'FORMULARIOS'],
         DB: [
                 {
