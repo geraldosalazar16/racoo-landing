@@ -105,8 +105,8 @@ const siteMap = [
   {
       TITLE: 'Alerta usuarios',
       DESCRIPTION: 'Alerta usuarios',
-      APP_URL: 'http://adminusuarios.racooapps.com',
-      API: 'http://alertasusuarios.racooapps.com',
+      APP_URL: 'https://alertas-wk2mt6srkq-uk.a.run.app',
+      API: 'https://alertas-wk2mt6srkq-uk.a.run.app',
       DOC: '',
       REPOSITORY: ['https://github.com/edgar-durand/alerta-usuarios-monorepo.git'],
       RELATIONS: [],
