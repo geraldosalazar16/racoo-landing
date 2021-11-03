@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "racoo-248604": {
+      "hosting": {
+        "racoo-apps": [
+          "racoo-248604"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "racoo-248604"
+  }
+}
