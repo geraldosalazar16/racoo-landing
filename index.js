@@ -57,9 +57,9 @@ const siteMap = [
   {
       TITLE: 'LINKS',
       DESCRIPTION: 'Links Racoo',
-      APP_URL: 'http://links.racooapps.com/',
-      API: 'http://links.racooapps.com',
-      DOC: 'http://links.racooapps.com/doc',
+      APP_URL: 'https://links-wk2mt6srkq-uc.a.run.app',
+      API: 'https://links-wk2mt6srkq-uc.a.run.app',
+      DOC: 'https://links-wk2mt6srkq-uc.a.run.app/doc',
       REPOSITORY: 'https://github.com/edgar-durand/links-monorepo.git',
       RELATIONS: [],
       DB: [
