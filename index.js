@@ -44,7 +44,7 @@ const siteMap = [
       APP_URL: 'https://login-wk2mt6srkq-uk.a.run.app',
       API: 'https://login-wk2mt6srkq-uk.a.run.app',
       DOC: 'https://login-wk2mt6srkq-uk.a.run.app/doc',
-      REPOSITORY: ['https://github.com/geraldosalazar16/racoo-landing.git'],
+      REPOSITORY: ['https://github.com/edgar-durand/login-monorepo.git'],
       RELATIONS: ['LEYES', 'UIF', 'EFOS', 'FADOCS', 'FORMULARIOS'],
       DB: [
               {
@@ -60,7 +60,7 @@ const siteMap = [
       APP_URL: 'http://links.racooapps.com/',
       API: 'http://links.racooapps.com',
       DOC: 'http://links.racooapps.com/doc',
-      REPOSITORY: '',
+      REPOSITORY: 'https://github.com/edgar-durand/links-monorepo.git',
       RELATIONS: [],
       DB: [
               {
@@ -76,7 +76,7 @@ const siteMap = [
       APP_URL: 'https://fadocs-wk2mt6srkq-uc.a.run.app',
       API: 'https://fadocs-wk2mt6srkq-uc.a.run.app/api',
       DOC: '',
-      REPOSITORY: ['racoo_fadocs_front', 'racoo-google-drive-api'],
+      REPOSITORY: ['https://github.com/edgar-durand/fadocs-monorepo.git'],
       RELATIONS: ['LOGIN'],
       DB: [
               {
@@ -108,7 +108,7 @@ const siteMap = [
       APP_URL: 'http://adminusuarios.racooapps.com',
       API: 'http://alertasusuarios.racooapps.com',
       DOC: '',
-      REPOSITORY: ['racoo-alertas-usuarios', 'racoo-alertas-usuarios-front'],
+      REPOSITORY: ['https://github.com/edgar-durand/alerta-usuarios-monorepo.git'],
       RELATIONS: [],
       DB: [
           {
