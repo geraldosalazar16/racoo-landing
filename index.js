@@ -7,7 +7,7 @@ const siteMap = [
       DOC: 'https://efos-wk2mt6srkq-uk.a.run.app/api',
       REPOSITORY: ['https://github.com/edgar-durand/efos-workspace.git'],
       RELATIONS: [
-          'LOGIN', 
+          'LOGIN',
           'https://github.com/geraldosalazar16/racoo_cloud_functions.git'
       ],
       DB: [
@@ -71,26 +71,10 @@ const siteMap = [
           ]
   },
   {
-      TITLE: 'Control de usuarios',
-      DESCRIPTION: 'Esta aplicación permite dar de alta a los usuarios en el sistema Racoo',
-      APP_URL: 'http://usuarios.racooapps.com/',
-      API: '',
-      DOC: '',
-      REPOSITORY: '',
-      RELATIONS: [],
-      DB: [
-              {
-                  DB_TYPE: '',
-                  DB_NAME: '',
-                  DB_URL: ''
-              }
-          ]
-  },
-  {
       TITLE: 'FADOCS',
       DESCRIPTION: 'Esta app permite el autocompletado de documentos',
-      APP_URL: 'http://fadocs.racooapps.com/',
-      API: 'http://drive.racooapps.com/api',
+      APP_URL: 'https://fadocs-wk2mt6srkq-uc.a.run.app',
+      API: 'https://fadocs-wk2mt6srkq-uc.a.run.app/api',
       DOC: '',
       REPOSITORY: ['racoo_fadocs_front', 'racoo-google-drive-api'],
       RELATIONS: ['LOGIN'],
@@ -124,7 +108,7 @@ const siteMap = [
       APP_URL: 'http://adminusuarios.racooapps.com',
       API: 'http://alertasusuarios.racooapps.com',
       DOC: '',
-      REPOSITORY: ['racoo-alertas-usuarios', 'racoo-alertas-usuarios-front'],     
+      REPOSITORY: ['racoo-alertas-usuarios', 'racoo-alertas-usuarios-front'],
       RELATIONS: [],
       DB: [
           {
@@ -132,23 +116,7 @@ const siteMap = [
               DB_NAME: 'racoolpb_listas_uif',
               DB_URL: 'listapb.com'
           }
-      ]    
-  },
-  {
-      TITLE: 'FORMULARIOS',
-      DESCRIPTION: 'Formularios',
-      APP_URL: 'http://formularios.racooapps.com',
-      API: 'http://formularios.racooapps.com',
-      DOC: '',
-      REPOSITORY: ['backFormularios', 'appFormulariosV2'],     
-      RELATIONS: ['LOGIN'],
-      DB: [
-          {
-              DB_TYPE: 'mongodb',
-              DB_NAME: 'racoo',
-              DB_URL: 'mongodb+srv://racoo:racoo2019@cluster0-3a5re.mongodb.net/test?retryWrites=true&w=majority'
-          }
-      ]    
+      ]
   }
 ]
 
@@ -188,7 +156,7 @@ function addElement() {
             <a class="btn btn-secondary" href="${app.DOC}" target="_blank" role="button">
               Documentación &raquo;
             </a>
-        </p>  ` : ``;    
+        </p>  ` : ``;
     newContent +=`</div>`;
 
     if(by3 === 3){
