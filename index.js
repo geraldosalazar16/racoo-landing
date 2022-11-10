@@ -44,7 +44,7 @@ const siteMap = [
       APP_URL: 'https://login-wk2mt6srkq-uk.a.run.app',
       API: 'https://login-wk2mt6srkq-uk.a.run.app',
       DOC: 'https://login-wk2mt6srkq-uk.a.run.app/doc',
-      REPOSITORY: ['https://github.com/edgar-durand/login-monorepo.git'],
+      REPOSITORY: ['https://github.com/MinotariaServers/login'],
       RELATIONS: ['LEYES', 'UIF', 'EFOS', 'FADOCS', 'FORMULARIOS'],
       DB: [
               {
@@ -60,7 +60,7 @@ const siteMap = [
       APP_URL: 'https://links-wk2mt6srkq-uc.a.run.app',
       API: 'https://links-wk2mt6srkq-uc.a.run.app',
       DOC: 'https://links-wk2mt6srkq-uc.a.run.app/doc',
-      REPOSITORY: 'https://github.com/edgar-durand/links-monorepo.git',
+      REPOSITORY: 'https://github.com/MinotariaServers/links',
       RELATIONS: [],
       DB: [
               {
@@ -76,7 +76,7 @@ const siteMap = [
       APP_URL: 'https://fadocs-wk2mt6srkq-uc.a.run.app',
       API: 'https://fadocs-wk2mt6srkq-uc.a.run.app/api',
       DOC: '',
-      REPOSITORY: ['https://github.com/edgar-durand/fadocs-monorepo.git'],
+      REPOSITORY: ['https://github.com/MinotariaServers/fadocs'],
       RELATIONS: ['LOGIN'],
       DB: [
               {
@@ -105,10 +105,10 @@ const siteMap = [
   {
       TITLE: 'Alerta usuarios',
       DESCRIPTION: 'Alerta usuarios',
-      APP_URL: 'https://alertas-wk2mt6srkq-uk.a.run.app',
-      API: 'https://alertas-wk2mt6srkq-uk.a.run.app',
+      APP_URL: 'https://alertas-wk2mt6srkq-uk.a.run.app/index.html',
+      API: 'https://alertas-wk2mt6srkq-uk.a.run.app/index.html',
       DOC: '',
-      REPOSITORY: ['https://github.com/edgar-durand/alerta-usuarios-monorepo.git'],
+      REPOSITORY: ['https://github.com/MinotariaServers/alertas-usuarios'],
       RELATIONS: [],
       DB: [
           {
